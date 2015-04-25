@@ -1,0 +1,34 @@
+---
+title: "DV_TableauProject4"
+author: "Junbo Shim and Sagar Patel"
+date: "Friday, April 24, 2015"
+output: html_document
+---
+```{r}
+source("../Rprofile.R", echo=FALSE) #load libraries
+```
+
+```{r}
+source("../00 Doc/Crosstabs.R", echo=TRUE) #load crosstabs
+tbl_df(dfbirth)
+tbl_df(dfdeath)
+```
+```
+Talbeau Data Blending Representations
+```
+```
+Births and Deaths graph shows the sum of total births vs. deaths for each year
+```
+![](./Births_and_Deaths.png)
+```
+Population Increase graph shows the increase in population for each year. Population increase rate decrease tremendously from year 1960 to 1970.
+```
+![](./Population_Change.png)
+```
+Female Birth/Death Percentage graph shows the birth and death percentage of females for each year. Female death percentage increases slightly over the years whereas female birth percentage remains random throughout the years.
+```
+![](./Female_BirthDeath_Percentages.png)
+```
+Death before Birth graph shows the sum of total deaths at the age of 0. The total death count decreases gradually as technology and medical care is improved.
+```
+![](./Death_before_Birth.png)

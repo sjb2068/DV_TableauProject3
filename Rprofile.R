@@ -1,0 +1,7 @@
+library("RCurl")
+library("png")
+library("plyr")
+library("dplyr")
+library("jsonlite")
+library("ggplot2")
+library("bitops")
